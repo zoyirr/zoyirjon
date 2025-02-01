@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+    
+
+<div id="box">
+    <header class="container">
+    <img src="./img/Group 3.png" alt="" id="aaa">
+    <nav>
+        <ul>
+            <li><a href="#">отзывы</a></li>
+            <li><a href="#">что это?</a></li>
+            <li><a href="#">контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+<main>
+    <section class="hero container">
+        <div class="bola2">
+            <h1>Инновационные коврики для автомобиля</h1>
+            <button class="btn" id="btn">ЗАКАЗАТЬ</button>
+        </div>
+        <div class="bola"><img src="./img/коврф 1.png" alt="" id="aa"></div>
+
+    </section>
+
+    <section class=" container">
+        <h2>Что такое <span>EVA</span> коврики?</h2>
+
+        <div class="box">
+            <div class="bola3"><img src="./img/image00004 1.jpg" alt="">
+                <h3>МАТЕРИАЛ</h3>
+                <p class="b">Коврики EVA всесезонные и отличаются уникальной поверхностью материала с ячейками ромбовидной формы. Из-за чего вода не проливается при изъятии ковра и не плещется при езде. Коврики воду не пропускают.</p>
+            </div>
+            <div class="bola3"><img src="./img/image00004 1.jpg" alt="">
+                <h3>МАТЕРИАЛ</h3>
+                <p class="b">Коврики EVA всесезонные и отличаются уникальной поверхностью материала с ячейками ромбовидной формы. Из-за чего вода не проливается при изъятии ковра и не плещется при езде. Коврики воду не пропускают.</p>
+            </div>
+            <div class="bola3"><img src="./img/image00004 1.jpg" alt="">
+                <h3>МАТЕРИАЛ</h3>
+                <p class="b">Коврики EVA всесезонные и отличаются уникальной поверхностью материала с ячейками ромбовидной формы. Из-за чего вода не проливается при изъятии ковра и не плещется при езде. Коврики воду не пропускают.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="a">
+        <div class="box1 ">
+            <div class="bola4"><img src="./img/Mask Group.png" alt="" id="img">
+            <p class="bb">Покупала у ребят коврики для Хундай солярис в подарок молодому человеку. Все очень понравилось. Буду советовать только вас.</p>
+            </div>
+            <div class="bola4"><img src="./img/Mask Group.png" alt="" id="img">
+            <p class="bb">Покупала у ребят коврики для Хундай солярис в подарок молодому человеку. Все очень понравилось. Буду советовать только вас.</p>
+            </div>
+            <div class="bola4"><img src="./img/Mask Group.png" alt="" id="img">
+            <p class="bb">Покупала у ребят коврики для Хундай солярис в подарок молодому человеку. Все очень понравилось. Буду советовать только вас.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+<div class="box2 container">
+    <div class="div"><p class="pp">МЫ В СОЦИАЛЬНЫХ СЕТЯХ</p>
+        <img src="./img/512px-Instagram_new 1 (1).png" alt=""></div>
+        <div><p class="pp">КОНТАКТНЫЕ ТЕЛЕФОНЫ</p>
+        <p class="qq">+375 29 292-29-29 (VEL)
+         +375 33 333-33-33 (МТС)</p></div>
+
+         <div><p class="pp">О НАС</p>
+        <p class="qqq">Индивидуальное изготовление EVA ковриков для вашего автом</p></div>
+</div>
+</footer>
+</div>
+
+<div id="modal">
+    <div class="modal">
+<div class="input-card container" id="">
+ <h3>ФОРМА ЗАЯВКИ</h3>
+ <div class="card-input">
+     <input type="text" placeholder="Ваше имя" class="input">
+     <input type="email" placeholder="Ваш e-mail" class="input">
+     <input type="text" placeholder="Ваше сообщение (марка автомобиля, цвет ковриков, номер телефона)" class="input2">
+ </div>
+ <button class="btn2" id="btn2">отправить</button>
+</div></div></div>
+
+
+<script class="container">
+const btn=document.getElementById("btn");
+const btn2=document.getElementById("btn2");
+const box=document.getElementById("box");
+const modal=document.getElementById("modal");
+
+btn.addEventListener("click",()=>{
+    box.style="filter:blur(20px)";
+    modal.style="display:block";
+})
+
+
+btn2.addEventListener("click",()=>{
+    box.style="filter:blur(0px)";
+    modal.style="display:none";
+})
+</script>
+
+
+
+
+</body>
+</html>
